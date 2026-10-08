@@ -4,3 +4,27 @@ body {
   background: #f8fafc;
   color: #1e293b;
 }
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #2563eb;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a,
+.logo {
+  color: #1e293b;
+  text-decoration: none;
+}
