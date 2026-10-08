@@ -53,3 +53,16 @@ nav a,
   text-decoration: none;
   border-radius: 6px;
 }
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #1e293b;
+  color: white;
+}
+
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
